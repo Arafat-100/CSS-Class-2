@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+#prodect_card{
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid rgb(178, 178, 178);
+    border-radius: 10px;
+    font-family: ;
+}
+
+#prodect_title{
+    margin: 15px 0 15px 0;
+    text-decoration: none;
+    color: black;
+}
+
+img{}
+
+p{
+    text-align: center;
+    margin: 10px 0 10px 0;
+    color: #ff0000;
+    font-size: 20px;
+}
+
+button{
+    color: blue;
+    width: 200px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 40px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#text_gradient{
+    font-size: 150px;
+    text-transform: uppercase;
+    text-align: center;
+    background-image: url(./img/img.webp);
+    background-size: cover;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#bg_img{
+    background-image: url(./img/download.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#background_gradient{
+    width: 1200px;
+    height: 500px;
+    background-image: linear-gradient(black,blue,red);
+}
